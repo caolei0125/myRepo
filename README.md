@@ -11,5 +11,7 @@ git checkout -- 文件名  可以(丢弃工作区的修改)删除工作区的修
 git add 命令之后又对文件做了修改,使用 git checkout -- 文件名 可以丢弃此次的修改,恢复到add命令之后
 
 git rm 文件名 可以删除该文件(需要使用 git commit 进行提交)
-
 如果没有使用commit命令之前,可以使用git checkout -- 文件名 再次找回来
+
+使用git branch 分支名称  表示创建一个名称为xx的分支
+使用git checkout 分支名称   表示从当前分支切换到名称为xx的分支
