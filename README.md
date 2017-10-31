@@ -15,3 +15,5 @@ git rm 文件名 可以删除该文件(需要使用 git commit 进行提交)
 
 使用git branch 分支名称  表示创建一个名称为xx的分支
 使用git checkout 分支名称   表示从当前分支切换到名称为xx的分支
+
+在dev分支上进行修改并提交
